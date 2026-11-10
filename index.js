@@ -48,7 +48,7 @@ const ADDITIONAL_ACCESS_ROLE_NAMES = new Set([
 
 const PORT = Number(process.env.PORT || 3000);
 const CALLBACK_URL =
-    process.env.CALLBACK_URL || "https://gfx-antiraid.onrender.com/callback";
+    process.env.CALLBACK_URL || "https://fedora-bot.onrender.com/callback";
 
 if (!process.env.BOT_TOKEN || !process.env.CLIENT_ID || !process.env.CLIENT_SECRET) {
     throw new Error("Missing BOT_TOKEN, CLIENT_ID, or CLIENT_SECRET environment variable.");
