@@ -36,16 +36,13 @@ const {
 
 const app = express();
 
-const PRIMARY_GUILD_ID = "1468021969638392080";
-const RAID_MANAGER_ROLE_ID = "1530291208784449688";
+const PRIMARY_GUILD_ID = "1550575918987083836";
+const RAID_MANAGER_ROLE_ID = "1568846530285273139";
 
 // These role names are also allowed to access the live dashboard and commands.
 // Use the exact Discord role names, without the @ mention.
 const ADDITIONAL_ACCESS_ROLE_NAMES = new Set([
-    "[H-ADM] HeadAdmin",
-    "[SH] Server Holder",
-    "[SO] Server Owner",
-    "[SCO] Server Co-Owner",
+    "Management",
 
 ].map(name => name.trim().toLowerCase()));
 
